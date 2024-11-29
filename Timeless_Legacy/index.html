@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Artifacts</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="assets/images/Hero Image.png" alt="Hero Image">
+      <div class="hero-content">
+        <h1>Timeless Legacy</h1>
+        <a href="#" class="btn artifact-btn">Learn More</a>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="about-content">
+        <div class="about-text">
+          <h2>About the Project</h2>
+          <p>This collection highlights important figures like George Washington, Helen Keller, and Abraham Lincoln through museum artifacts—like busts, life masks, and fossils—that offer a personal glimpse into their lives. By exploring these objects, we connect with the people behind the history, gaining insight into their impact and legacy. Each artifact shows a different side of the figure, making history feel more tangible and meaningful.
+          </p>
+          <a href="#" class="btn artifact-btn">Explore</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="artifacts">
+      <h2>Artifacts</h2>
+      <div class="artifact-cards">
+        <div class="artifact-card">
+          <img src="assets/images/George_Washington_1.png" alt="Artifact 1">
+          <div class="carousel">
+            <div class="carousel-container">
+              <img src="assets/images/George_Washington_2.png" alt="Artifact 1 Image 1">
+              <img src="assets/images/George_Washington_3.png" alt="Artifact 1 Image 2">
+            </div>
+          </div>
+          <h3>George Washington Marble Bust</h3>
+          <p>Created around 1819 by Massimiliano Ravenna after Giuseppe Ceracchi's original, honors America's first president as a soldier, statesman, and foundational figure in democracy.</p>
+          <a href="#" class="btn artifact-btn">Learn More</a>
+          <div class="model-viewer-container">
+            <div class="model-viewer">
+              <model-viewer src="assets/3d_models/gw_bust-150k-4096.glb" 
+                          camera-controls
+                          auto-rotate
+                          shadow-intensity="1"
+                          exposure="1"
+                          shadow-softness="1"
+                          environment-image="neutral"
+                          alt="3D model of George Washington bust">
+              </model-viewer>
+            </div>
+          </div>
+        </div>
+        <div class="artifact-card">
+          <img src="assets/images/Captain Gabriel Archer 1.png" alt="Artifact 2">
+          <div class="carousel">
+            <div class="carousel-container">
+              <img src="assets/images/Captain Gabriel Archer 2.png" alt="Artifact 2 Image 1">
+              <img src="assets/images/Captain Gabriel Archer 3.png" alt="Artifact 2 Image 2">
+            </div>
+          </div>
+          <h3>Captain Gabriel Archer Burial</h3>
+          <p>Excavated in 2017 at Historic Jamestowne, provide a glimpse into the lives and struggles of the early Jamestown colonists. These bones, buried in the church chancel, connect us to the resilience of the settlers who helped lay the foundations of America.</p>
+          <a href="#" class="btn artifact-btn">Learn More</a>
+          <div class="model-viewer-container">
+            <div class="model-viewer">
+              <model-viewer src="assets/3d-models/model.glb"></model-viewer>
+            </div>
+          </div>
+        </div>
+        <div class="artifact-card">
+          <img src="assets/images/Australopithecus africanus- Cranium1.png" alt="Artifact 3">
+          <div class="carousel">
+            <div class="carousel-container">
+              <img src="assets/images/Australopithecus africanus- Cranium2.png" alt="Artifact 3 Image 1">
+              <img src="assets/images/Australopithecus africanus- Cranium3.png" alt="Artifact 3 Image 2">
+            </div>
+          </div>
+          <h3>Australopithecus africanus: Cranium</h3>
+          <p>Discovered in Sterkfontein, South Africa, provides key insights into a pivotal stage of human evolution. Dating back 2.8 to 2.4 million years, it highlights early bipedalism, a small brain, and a mixed diet, offering a vital link to our evolutionary past.</p>
+          <a href="#" class="btn artifact-btn">Learn More</a>
+          <div class="model-viewer-container">
+            <div class="model-viewer">
+              <model-viewer src="assets/3d-models/model-3.glb"></model-viewer>
+            </div>
+          </div>
+        </div>
+        <div class="artifact-card">
+          <img src="assets/images/Hellen Keller1.png" alt="Artifact 4">
+          <div class="carousel">
+            <div class="carousel-container">
+              <img src="assets/images/Helen Keller2.png" alt="Artifact 4 Image 1">
+              <img src="assets/images/Helen Keller3.png" alt="Artifact 4 Image 2">
+            </div>
+          </div>
+          <h3>Helen Keller Life Mask</h3>
+          <p>Created in 1916, captures the spirit of a remarkable advocate who defied being deaf and blind to inspire generations. This artifact symbolizes Keller's strength, determination, and enduring legacy as a writer and humanitarian.</p>
+          <a href="#" class="btn artifact-btn">Learn More</a>
+          <div class="model-viewer-container">
+            <div class="model-viewer">
+              <model-viewer src="assets/3d-models/model-4.glb"></model-viewer>
+            </div>
+          </div>
+        </div>
+        <div class="artifact-card">
+          <img src="assets/images/Abraham Lincoln1.png" alt="Artifact 5">
+          <div class="carousel">
+            <div class="carousel-container">
+              <img src="assets/images/Abraham Lincoln2.png" alt="Artifact 5 Image 1">
+              <img src="assets/images/Abraham Lincoln3.png" alt="Artifact 5 Image 2">
+            </div>
+          </div>
+          <h3>Abraham Lincoln Life Mask</h3>
+          <p>Created in 1860 by Leonard Wells Volk, offers a rare glimpse of the future president just before his pivotal role in American history. This plaster mask, cast in 1917, captures Lincoln's likeness before the Civil War's toll and serves as a timeless reminder of his leadership in shaping America's future.</p>
+          <a href="#" class="btn artifact-btn">Learn More</a>
+          <div class="model-viewer-container">
+            <div class="model-viewer">
+              <model-viewer src="assets/3d-models/model-5.glb"></model-viewer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Timeless legacy</p>
+  </footer>
+</body>
+</html>
